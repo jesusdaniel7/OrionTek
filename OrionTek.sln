@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrionTek.API", "OrionTek.API\OrionTek.API.csproj", "{40F8B0D8-292C-44AC-AE54-99E129030337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrionTek.API", "OrionTek.API\OrionTek.API.csproj", "{40F8B0D8-292C-44AC-AE54-99E129030337}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrionTek.Business", "OrionTek.Business\OrionTek.Business.csproj", "{D11A94CD-9ACF-4E2D-B350-D2823810489B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrionTek.Repopsitory", "OrionTek.Repopsitory\OrionTek.Repopsitory.csproj", "{872381DC-9B0A-46FB-9001-D1AB46502F68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrionTek.DataAccess", "OrionTek.DataAccess\OrionTek.DataAccess.csproj", "{DD868638-A01D-4172-9929-028FCFED7EF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrionTek.Entities", "OrionTek.Entities\OrionTek.Entities.csproj", "{853801F0-7C64-4BCA-89C5-552F2324F426}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrionTek.Tests", "OrionTek.Tests\OrionTek.Tests.csproj", "{869A254F-26C3-4D65-B43D-1FAEA20F969B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{40F8B0D8-292C-44AC-AE54-99E129030337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40F8B0D8-292C-44AC-AE54-99E129030337}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40F8B0D8-292C-44AC-AE54-99E129030337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D11A94CD-9ACF-4E2D-B350-D2823810489B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11A94CD-9ACF-4E2D-B350-D2823810489B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11A94CD-9ACF-4E2D-B350-D2823810489B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11A94CD-9ACF-4E2D-B350-D2823810489B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872381DC-9B0A-46FB-9001-D1AB46502F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872381DC-9B0A-46FB-9001-D1AB46502F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872381DC-9B0A-46FB-9001-D1AB46502F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872381DC-9B0A-46FB-9001-D1AB46502F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD868638-A01D-4172-9929-028FCFED7EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD868638-A01D-4172-9929-028FCFED7EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD868638-A01D-4172-9929-028FCFED7EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD868638-A01D-4172-9929-028FCFED7EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853801F0-7C64-4BCA-89C5-552F2324F426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853801F0-7C64-4BCA-89C5-552F2324F426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853801F0-7C64-4BCA-89C5-552F2324F426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853801F0-7C64-4BCA-89C5-552F2324F426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869A254F-26C3-4D65-B43D-1FAEA20F969B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869A254F-26C3-4D65-B43D-1FAEA20F969B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869A254F-26C3-4D65-B43D-1FAEA20F969B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869A254F-26C3-4D65-B43D-1FAEA20F969B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
